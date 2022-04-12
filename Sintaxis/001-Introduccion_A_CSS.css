@@ -1,0 +1,4 @@
+h3{
+    color: aqua !important; /* !important indica que este estilo tiene más prioridad*/
+    text-align: left;
+}

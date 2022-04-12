@@ -1,0 +1,47 @@
+/*todo los bordes none y hidden no nuestran nada*/
+h1 {
+    text-align: center;
+}
+
+.rojo {
+    /* 1px indica el ancho de la linea, solid indica que sera una linea solida y podemos definir el color*/
+    border: 10px solid firebrick;
+}
+
+.rosado {
+    border: 10px dashed rgb(255, 105, 180);
+}
+
+.amarillo {
+    border: 10px double #ffd700;
+}
+
+.azul {
+    border: 10px dotted hsl(174, 72%, 56%);
+}
+
+.verde{
+    border: 10px lime inset;
+}
+
+
+table{
+    border-width: 3px;
+    background-color: #52E396;
+}
+
+.b1{border-style: none;} /*sin borde*/
+.b2{border-style: hidden;} /* oculto*/
+.b3{border-style: dotted;} /* punteado*/
+.b4{border-style: dashed;} /* sicontinua*/
+.b5{border-style: solid;} /* solid*/
+.b6{border-style: double;} /* border doble*/
+.b7{border-style: groove;} /*surco*/
+.b8{border-style: ridge;} /*cresta*/
+.b9{border-style: inset;} /*recuadro*/
+.b10{border-style: outset;} /* recuadro inverso*/
+
+/*top | right | bottom | left*/
+.estilo{
+    border-style: none solid double dashed;
+}

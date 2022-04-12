@@ -1,0 +1,22 @@
+!important
+    Esta instrucción indica que el estilo es importante generalmente se usa cuando
+    a una etiqueta le colocamos estilos directamente y luego lo hacemos desde un 
+    archivo css, al usar esta instrucción en el archivo css dara más importancia a
+    los estilos de dicho archivo.
+
+color
+    asigna un color a los textos.
+
+text-aling
+    da formato al texto a la derecha, izquierda, centro, justifica.
+
+font-size
+    cambia el tamaño de la fuente.
+
+background-color
+    Cambia el fondo del navegador o div en que agregemos este estilo.
+
+hsl
+    h = hue (color)
+    s = saturation (saturacion)
+    l = lighness (iluminacion)

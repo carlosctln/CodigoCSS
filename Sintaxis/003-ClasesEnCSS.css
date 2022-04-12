@@ -1,0 +1,11 @@
+.centrar{/*para nombrar clases deben iniciar con letras y separar palabras con guiones*/
+    text-align: center;
+}
+
+.justificar{
+    text-align: justify;
+}
+
+.texto_grande{
+    font-size: 20px;
+}
